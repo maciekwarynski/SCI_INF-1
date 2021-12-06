@@ -1,0 +1,9 @@
+﻿  sortowanie.cpp
+C:\Users\kosuk\source\repos\Sortowanko Sortu Sortu Mieszu Mieszu\Sortowanko Sortu Sortu Mieszu Mieszu\sortowanie.cpp(8,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kosuk\source\repos\Sortowanko Sortu Sortu Mieszu Mieszu\Sortowanko Sortu Sortu Mieszu Mieszu\sortowanie.cpp(15,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\kosuk\source\repos\Sortowanko Sortu Sortu Mieszu Mieszu\Sortowanko Sortu Sortu Mieszu Mieszu\sortowanie.cpp(23,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kosuk\source\repos\Sortowanko Sortu Sortu Mieszu Mieszu\Sortowanko Sortu Sortu Mieszu Mieszu\sortowanie.cpp(25,27): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kosuk\source\repos\Sortowanko Sortu Sortu Mieszu Mieszu\Sortowanko Sortu Sortu Mieszu Mieszu\sortowanie.cpp(43,17): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Sortowanko Sortu Sortu Mieszu Mieszu.cpp
+  Generowanie kodu...
+  Sortowanko Sortu Sortu Mieszu Mieszu.vcxproj -> C:\Users\kosuk\source\repos\Sortowanko Sortu Sortu Mieszu Mieszu\Debug\Sortowanko Sortu Sortu Mieszu Mieszu.exe
