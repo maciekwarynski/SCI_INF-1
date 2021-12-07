@@ -18,6 +18,7 @@ int main()
 		cout << "2. Szyfr przestawieniowy" << endl;
 		cout << "3. Szyfr podstawieniowy i szyfr przestawieniowy" << endl;
 		cout << "4. Odszyfruj teskt" << endl;
+		cout << "5. Generowanie klucza RSA" << endl;
 		int wybor;
 		cin >> wybor;
 		switch (wybor) {
@@ -45,6 +46,8 @@ int main()
 			int eu = szyfr.euler(p, q);
 			int e = 3;
 			int d = (1 % eu) / e;
+			cout << "Publiczny:" << endl << "N: " << n << endl << "E: " << e << endl;
+			cout << "Prywatny: " << endl << "E: "<< e << endl << "D: " << d << endl;	
 			break;
 		}
 		cout << endl << "Zakonczyc program? (tak/nie)" << endl;
