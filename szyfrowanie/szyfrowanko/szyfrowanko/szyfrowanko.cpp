@@ -6,6 +6,12 @@ using namespace std;
 string tekst;
 szyfrowanie szyfr;
 int petla = 1;
+int modInverse(int a, int m)
+{
+	for (int x = 1; x < m; x++)
+		if (((a%m) * (x%m)) % m == 1)
+			return x;
+}
 int main()
 {
 	srand(time(NULL));
@@ -39,13 +45,13 @@ int main()
 			break;
 
 		case 5:
-			int pierwsze[25] = { '2','3','5','7','11','13','17','19','23','29','31','37','41','43','47','53','59','61','67','71','73','79','83','89','97' };
-			int p = pierwsze[rand() % 25];
-			int q = pierwsze[rand() % 25];
+			
+			int p = 13;
+			int q = 11;
 			int n = p * q;
 			int eu = szyfr.euler(p, q);
 			int e = 3;
-			int d = (1 % eu) / e;
+			int d = modInverse(e, eu) ;
 			cout << "Publiczny:" << endl << "N: " << n << endl << "E: " << e << endl;
 			cout << "Prywatny: " << endl << "E: "<< e << endl << "D: " << d << endl;	
 			break;
