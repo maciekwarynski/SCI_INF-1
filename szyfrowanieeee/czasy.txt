@@ -1,0 +1,18 @@
+babelkowe 0.512605s
+wstawieniowe 0.121235s
+wybor 0.210275s
+std 0.0019793s
+quick 0.0018672s
+
+babelkowe 0.596616s
+wstawieniowe 0.156897s
+wybor 0.200301s
+std 0.001874s
+quick 0.0020729s
+
+babelkowe 0.524277s
+wstawieniowe 0.120375s
+wybor 0.184823s
+std 0.0017812s
+quick 0.0024407s
+

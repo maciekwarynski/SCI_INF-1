@@ -1,0 +1,5 @@
+﻿  sortowanie.cpp
+C:\Users\kosuk\source\repos\szyfrowanieeee\szyfrowanieeee\sortowanie.cpp(8,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\kosuk\source\repos\szyfrowanieeee\szyfrowanieeee\sortowanie.cpp(16,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\kosuk\source\repos\szyfrowanieeee\szyfrowanieeee\sortowanie.cpp(93,2): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  szyfrowanieeee.vcxproj -> C:\Users\kosuk\source\repos\szyfrowanieeee\x64\Debug\szyfrowanieeee.exe
