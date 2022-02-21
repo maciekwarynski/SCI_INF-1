@@ -1,0 +1,4 @@
+﻿  myvector.cpp
+C:\Users\kosuk\source\repos\myvector\myvector\wektor.h(8,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\kosuk\source\repos\myvector\myvector\wektor.h(15,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  myvector.vcxproj -> C:\Users\kosuk\source\repos\myvector\x64\Debug\myvector.exe
