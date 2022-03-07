@@ -2,8 +2,8 @@
 class ListElement
 {
 public:
-	int value; //wartoœæ elementu
-	ListElement* nextEl; //wskaŸnik na nastêpny element
+	int value; //wartoÅ“Ã¦ elementu
+	ListElement* nextEl; //wskaÅ¸nik na nastÃªpny element
 };
 
 class List
@@ -17,7 +17,7 @@ public:
 	void Print();
 	~List();
 private:
-	ListElement* head, *tail; //wskaŸniki na pierwszy i ostatni element listy
+	ListElement* head, *tail; //wskaÅºniki na pierwszy i ostatni element listy 
 };
 
 
